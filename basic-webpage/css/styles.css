@@ -10,7 +10,7 @@
         width: 100%;
     }
     .header {
-        background-color: yellow;
+        background-color: chocolate;
         margin: 1em;
         padding: 1em;
       }
@@ -18,40 +18,28 @@
         my-image{
             float: right;
         }
+
         h1 {
             float: left;
             
-        } 
+        }
+
         .clear {
           display: flex;
           margin: 0.5em;
           padding: 0.5em;
         }
+
     .athens-image {
         float: left;
+        padding: 1em;
     }
     .clearfix {
         overflow: auto;
         zoom: 1;
     }
-    .main {
-        background: chocolate;
-        display: flex;
-        flex-flow: row;
-            
-        }
-    .Castle-of-Good-Hope-Container {
-        display: flex;
-        flex-flow: row;
-        }
-    .City-Hall-Container{
-        display: flex;
-        flex-flow: row;
-        }
-    .Iziko-Museum-Container {
-        display: flex;
-        flex-flow: row;
-    }
+    
+    
        table, th, tr, td {
            width: 50%;
            height: auto;
@@ -61,13 +49,29 @@
            padding: 1em;
        }
     li{
-    font-size: x-small;
+   
+        font-size: x-small;
 }
-    img {
-        float: right;
+.places{
+    display: flex;
+     
+}
+
+    /*
     }
     @media(min-width:600px) {
+        .places {
+            background: chocolate;
+            display: flex;
+            flex-flow: row;
+                
+            }
         .main{
             float: inline-start;
         }
+        .place {
+           display: flex;
+            flex-flow: row;
+            }
+
     }
