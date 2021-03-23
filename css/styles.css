@@ -49,6 +49,7 @@ td {
 	margin-right: auto;
 	border-style: double;
 	padding: 1em;
+	border-collapse: collapse;
 }
 
 li {
