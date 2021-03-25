@@ -1,7 +1,6 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	/* width: 100%; */
-	background-color: chocolate;
+	background-color: bisque;
 	background-repeat: repeat;
 }
 
@@ -10,7 +9,7 @@ body {
 }
 
 .header {
-	background-color: chocolate;
+	background-color: bisque	;
 	margin: 1em;
 	padding: 1em;
 }
@@ -53,7 +52,7 @@ td {
 }
 
 li {
-	font-size: x-small;
+	font-size: medium;
 }
 
 .place {
